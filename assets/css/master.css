@@ -1,0 +1,67 @@
+* {
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #FFF8DC;
+  font-family: 'Arvo', serif;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  background-image: linear-gradient(to right bottom, #eebae7, #deaee2, #cca3dc, #b998d7, #a58ed2);
+  justify-content: center;
+  align-items: center;
+}
+
+.flex {
+  display: flex;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.container {
+  background-image: linear-gradient(to left bottom, #27323f, #323b49, #3e4552, #494e5c, #555866);
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 3px 3px #BA55D3;
+}
+
+.card {
+  justify-content: center;
+}
+
+.card h1, p {
+  text-shadow: 2px 2px #000;
+}
+
+.password-block {
+  background-color: #fff;
+  width: 80%;
+  margin: auto;
+  height: 35px;
+  border-radius: 8px;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 2px 2px #000;
+}
+
+#password {
+  color: #000;
+  font-size: 13px;
+  font-weight: bold;
+  text-shadow: none;
+}
+
+.lock-img > * {
+  margin: 30px 0;
+  width: 100px;
+  filter: drop-shadow(1px 1px 2px black);
+}
