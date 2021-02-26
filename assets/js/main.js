@@ -13,6 +13,6 @@ var colore = prompt("Qual è il tuo colore preferito?");
 
 console.log(colore);
 
-document.getElementById('name').innrHTML = nome + "!";
+document.getElementById('name').innerHTML = nome + "!";
 
 document.getElementById('password').innerHTML = nome + cognome + colore + "21";

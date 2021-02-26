@@ -38,7 +38,7 @@ body {
   justify-content: center;
 }
 
-.card h1, p {
+.card h1, p, span {
   text-shadow: 2px 2px #000;
 }
 
@@ -51,6 +51,10 @@ body {
   justify-content: center;
   align-items: center;
   box-shadow: 2px 2px #000;
+}
+
+#name {
+  display: inline;
 }
 
 #password {
